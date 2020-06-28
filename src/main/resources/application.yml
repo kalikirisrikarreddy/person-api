@@ -1,0 +1,12 @@
+---
+
+spring:
+  profiles: dev
+
+application :
+  name : person api
+  
+server:
+  port: 8080
+
+---
