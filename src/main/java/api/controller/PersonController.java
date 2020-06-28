@@ -10,7 +10,7 @@ import api.model.Person;
 @RestController
 public class PersonController {
 
-  @GetMapping("/api/v1/students/{id}")
+  @GetMapping("/api/v1/people/{id}")
   public ResponseEntity<Person> getStudent(@PathVariable(name = "id") String id) {
     Person person = new Person();
     person.setId(id);
